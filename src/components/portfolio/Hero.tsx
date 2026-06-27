@@ -222,7 +222,7 @@ export function Hero() {
                 View Projects
                 <span aria-hidden>→</span>
               </MagneticButton>
-              <MagneticButton href="/Alisha-Fatima-CV.pdf" variant="ghost">
+              <MagneticButton href="https://drive.google.com/uc?export=download&id=1RAkolzeISk4f1kNiaYwufa8sryAdUJIN" variant="ghost">
                 Download CV
               </MagneticButton>
               <MagneticButton href="#contact" variant="ghost">
