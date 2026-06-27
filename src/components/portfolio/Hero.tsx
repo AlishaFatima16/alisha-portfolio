@@ -222,9 +222,14 @@ export function Hero() {
                 View Projects
                 <span aria-hidden>→</span>
               </MagneticButton>
-              <MagneticButton href="https://drive.google.com/uc?export=download&id=1RAkolzeISk4f1kNiaYwufa8sryAdUJIN" variant="ghost">
+              <a
+                href="https://drive.google.com/file/d/1RAkolzeISk4f1kNiaYwufa8sryAdUJIN/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative inline-flex items-center gap-3 px-7 py-3.5 rounded-full font-medium tracking-wide text-sm uppercase ease-cinematic transition-colors glass text-foreground hover:text-primary"
+              >
                 Download CV
-              </MagneticButton>
+              </a>
               <MagneticButton href="#contact" variant="ghost">
                 Contact Me
               </MagneticButton>
