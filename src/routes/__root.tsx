@@ -77,15 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
+      { title: "Alisha Fatima — AI Engineer" },
       { name: "description", content: "Alisha Fatima's AI Engineer portfolio showcases a futuristic, cinematic digital experience with immersive storytelling and interactive motion." },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
+      { name: "author", content: "Alisha Fatima" },
+      { property: "og:title", content: "Alisha Fatima — AI Engineer" },
       { property: "og:description", content: "Alisha Fatima's AI Engineer portfolio showcases a futuristic, cinematic digital experience with immersive storytelling and interactive motion." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:site", content: "@AlishaFatima" },
+      { name: "twitter:title", content: "Alisha Fatima — AI Engineer" },
       { name: "twitter:description", content: "Alisha Fatima's AI Engineer portfolio showcases a futuristic, cinematic digital experience with immersive storytelling and interactive motion." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d924430e-8717-4be8-81a5-a771883c1ec0/id-preview-fb725832--a2c28b86-6ce0-49b7-b1cb-1d7b7ccf6d7e.lovable.app-1780074589445.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d924430e-8717-4be8-81a5-a771883c1ec0/id-preview-fb725832--a2c28b86-6ce0-49b7-b1cb-1d7b7ccf6d7e.lovable.app-1780074589445.png" },
@@ -122,7 +122,6 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
   );
