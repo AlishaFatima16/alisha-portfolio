@@ -223,7 +223,7 @@ export function Hero() {
                 <span aria-hidden>→</span>
               </MagneticButton>
               <a
-                href="https://drive.google.com/file/d/1RAkolzeISk4f1kNiaYwufa8sryAdUJIN/view"
+                href="https://docs.google.com/document/d/1W6s8fqY0zU38YDMqXoUyS_40I3ydFueUzG7jR7srzPQ/export?format=pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-flex items-center gap-3 px-7 py-3.5 rounded-full font-medium tracking-wide text-sm uppercase ease-cinematic transition-colors glass text-foreground hover:text-primary"
